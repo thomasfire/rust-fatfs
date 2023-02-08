@@ -30,7 +30,7 @@ byteorder = { version = "1", default-features = false }
 bitflags = "1.0"
 log = "0.4"
 chrono = { version = "0.4", optional = true }
-core_io = { version = "0.1", optional = true }
+core_io = { version = "0.1", optional = true, git = "https://github.com/thomasfire/rust-core_io.git" }
 
 [dev-dependencies]
 env_logger = "0.5"
